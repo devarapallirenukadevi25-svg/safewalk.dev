@@ -2,8 +2,8 @@
 
 <p align="center">
 <img src="https://drive.google.com/file/d/1l7AVSq0-2Kaa43P-DPAvW8il25ji_V76/view?usp=sharing" height="100" width="100">
-<h3 style="margin-top: 0;" align="center">Women safety app using Background Voice Recognition</h3>
-<h5 style="margin-top: 0;" align="center">[ University 2nd Year SDP Project-2018 ]</h5>
+<h3 align="center">SafeWalk – Smart Safety App with Background Voice Recognition</h3>
+<h5 align="center">A Personal Safety Application for Everyone</h5>
 </p>
 
 # Safe Walk
