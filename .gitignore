@@ -7,3 +7,8 @@
 /build
 /captures
 .externalNativeBuild
+
+# Environment secrets
+.env
+.env.*
+!.env.example

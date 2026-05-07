@@ -94,6 +94,10 @@ public class MapsActivity extends FragmentActivity implements
         btnPolice.setOnClickListener(v -> {
             mMap.clear();
             String url = getUrl(latitude, longitude, "police");
+            if (url.isEmpty()) {
+                Toast.makeText(this, "Missing Google Places API key configuration.", Toast.LENGTH_LONG).show();
+                return;
+            }
 
             Object[] data = new Object[]{mMap, url};
             new GetNearbyPlacesData().execute(data);
@@ -108,6 +112,10 @@ public class MapsActivity extends FragmentActivity implements
 
             mMap.clear();
             String url = getUrl(latitude, longitude, "hospital");
+            if (url.isEmpty()) {
+                Toast.makeText(this, "Missing Google Places API key configuration.", Toast.LENGTH_LONG).show();
+                return;
+            }
 
             Object[] data = new Object[]{mMap, url};
             new GetNearbyPlacesData().execute(data);
@@ -155,13 +163,18 @@ public class MapsActivity extends FragmentActivity implements
     private String getUrl(double lat,
                           double lng,
                           String place) {
+        String placesApiKey = BuildConfig.GOOGLE_PLACES_API_KEY;
+        if (placesApiKey == null || placesApiKey.trim().isEmpty()) {
+            Log.e("MapsActivity", "GOOGLE_PLACES_API_KEY is missing. Please configure it in .env.");
+            return "";
+        }
 
         return "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
                 + "location=" + lat + "," + lng
                 + "&radius=" + PROXIMITY_RADIUS
                 + "&type=" + place
                 + "&sensor=true"
-                + "&key=YOUR_API_KEY";
+                + "&key=" + placesApiKey;
     }
 
     @Override
