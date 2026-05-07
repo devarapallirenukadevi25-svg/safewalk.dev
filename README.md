@@ -1,15 +1,26 @@
 <h2 style="margin-bottom: 0;" align="center">Women Safety Box</h2>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/15268903/92101573-23b92100-edff-11ea-9a01-73df323c4020.png" height="100" width="100">
+<img src="https://drive.google.com/file/d/1l7AVSq0-2Kaa43P-DPAvW8il25ji_V76/view?usp=sharing" height="100" width="100">
 <h3 style="margin-top: 0;" align="center">Women safety app using Background Voice Recognition</h3>
 <h5 style="margin-top: 0;" align="center">[ University 2nd Year SDP Project-2018 ]</h5>
 </p>
 
-# Women Safety Box
-This is an Android App for Women or any Female, which Will Call to an Emergency number, based on a specific voice command like "Help" . It will also send SMS with current GPS coordinates to those numbers.
+# Safe Walk
+This is an Android app ,an inclusive personal safety application designed for everyone — including men, women, students, elderly individuals, and specially-abled users such as the deaf, mute, and visually impaired. which Will Call to an Emergency number, based on a specific voice command like "Help" . It will also send SMS with current GPS coordinates to those numbers.
 
 * Make Sure that "Google" App is Installed on your phone and you give this App proper Access Permission like Call, SMS, Microphone.
+
+## Key Features
+
+- 🔐 Works for everyone (inclusive safety solution)
+- 🎙️ Keyword-based voice trigger (even in background)
+- 📳 Shake + Tap activation for quick alerts
+- 🔊 Volume button trigger for discreet usage
+- 📍 Real-time location sharing via SMS
+- 🚨 Instant emergency calling system
+
+## 🌍 Special Feature: Journey Guardian Mode
 
 
 ## App Screenshots
