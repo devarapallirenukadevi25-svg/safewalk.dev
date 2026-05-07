@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Exact Palette Extracted from Image -->
+    
+    <!-- Vibrant Violet for buttons and active states -->
+    <color name="colorPrimary">#8B44FF</color>
+    <color name="colorPrimaryDark">#6200EE</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+    <color name="colorAccent">#8B44FF</color>
+
+    <!-- UI Backgrounds -->
+    <color name="backgroundColor">#D6C6FF</color> <!-- Exact Lavender Background from Image -->
+    <color name="cardBackground">#FFFFFF</color> <!-- Pure White Cards -->
+    <color name="bottomNavBackground">#FFFFFF</color>
+    
+    <!-- Deep Purple Variants -->
+    <color name="purple_main">#8B44FF</color>
+    <color name="purple_light">#EDE7F6</color>
+    <color name="purple_dark">#4B0082</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#1A1A1A</color> <!-- Near Black/Deep Purple for readability -->
+    <color name="textSecondary">#6200EE</color> <!-- Deep Violet for secondary text -->
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    
+    <!-- SOS Colors -->
+    <color name="sos_purple">#8B44FF</color>
+    <color name="sos_glow">#4D8B44FF</color>
+
+    <!-- Overlay Colors for Toolbars -->
+    <color name="toolbar_text">#FFFFFF</color>
+</resources>

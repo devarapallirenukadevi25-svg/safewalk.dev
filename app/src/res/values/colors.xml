@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Burgundy Theme from reference) -->
+    <color name="colorPrimary">#800020</color>
+    <color name="colorPrimaryDark">#5E0017</color>
+    <color name="colorPrimaryLight">#A31D3A</color>
+    <color name="colorAccent">#800020</color>
+
+    <!-- UI Backgrounds -->
+    <color name="backgroundColor">#F8F9FA</color>
+    <color name="cardBackground">#FFFFFF</color>
+    
+    <!-- SOS Colors -->
+    <color name="sos_red">#B91C1C</color>
+    <color name="sos_glow">#40B91C1C</color> <!-- 25% Opacity -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#1A1A1A</color>
+    <color name="textSecondary">#666666</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#059669</color>
+    <color name="error">#DC2626</color>
+</resources>

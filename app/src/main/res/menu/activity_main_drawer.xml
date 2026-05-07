@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_inst"
+            android:icon="@drawable/icon_inst"
+            android:title="Instructions" />
+        <item
+            android:id="@+id/nav_verify"
+            android:icon="@drawable/icon_register"
+            android:title="Register Myself" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/icon_contatcs"
+            android:title="Register My Contacts" />
+        <item
+            android:id="@+id/nav_display"
+            android:icon="@drawable/icon_display"
+            android:title="Display Contacts" />
+        <item
+            android:id="@+id/nav_journey"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Journey Guardian" />
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Safe Community" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@android:drawable/btn_star"
+                android:title="Rate This App" />
+        </menu>
+    </item>
+
+</menu>
