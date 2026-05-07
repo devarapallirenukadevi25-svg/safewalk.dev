@@ -1,7 +1,7 @@
 <h2 style="margin-bottom: 0;" align="center">Women Safety Box</h2>
 
 <p align="center">
-<img src="https://drive.google.com/file/d/1l7AVSq0-2Kaa43P-DPAvW8il25ji_V76/view?usp=sharing" height="100" width="100">
+<img src="https://raw.githubusercontent.com/devarapallirenukadevi25-svg/safewalk.dev/refs/heads/main/safe%20walk%20logo.jpeg" height="100" width="100">
 <h3 align="center">SafeWalk – Smart Safety App with Background Voice Recognition</h3>
 <h5 align="center">A Personal Safety Application for Everyone</h5>
 </p>
